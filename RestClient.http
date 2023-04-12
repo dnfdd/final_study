@@ -1,0 +1,7 @@
+Get http://naver.com 
+
+GET http://localhost:8080/CartSave?product=K7 HTTP/1.1
+
+GET http://localhost:8080/FileDown?fileName=데이터베이스.properties
+
+GET http://localhost:8080/JSP/RequestForwarding/a.jsp

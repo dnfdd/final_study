@@ -1,0 +1,57 @@
+<script>
+    console.log(1);
+</script>
+
+<!DOCTYPE html>
+
+<script>
+    console.log(2);
+</script>
+
+<html lang="ko">
+<head>
+    <!-- 2. 내부Internal 스크립트 방식 -->
+    <script>
+        console.log(3);
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+
+    <style>
+        /* 내부 스타일시트 방식 */
+        body {
+            background-color: aquamarine;
+        }
+    </style>
+
+    <!-- 3. 외부External 스타일시트 방식 -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 3. 외부External 스크립트 방식 -->
+    <script src="javascript.js"></script>
+
+</head>
+<body>
+    <!-- style = 전역 속성 -->
+    <!-- 1. 인라인Inline 스타일시트 방식 -->
+    <!-- 2. 인라인Inline 스크립트 방식 -->
+    <h1 style="color: rebeccapurple;" 
+        onclick="console.log('onclicked.');">Main Title</h1>
+
+    <script>
+        console.log(4);
+    </script>
+</body>
+</html>
+
+<script>
+    console.log(5);
+</script>
+
+<script>
+    console.log(6);
+</script>

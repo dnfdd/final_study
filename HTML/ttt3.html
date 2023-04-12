@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/ttt3.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+    </section>
+
+    <script>
+        // var elem = Math.floor(Math.random()*49+1);
+        var number;
+
+        var ran = function () {
+            number = Math.floor(Math.random()*49+1);
+            document.querySelector(`article:nth-of-type(${number})`).style.backgroundColor = "Yellow"
+            return number;
+            
+        }
+        var ran1 = function () {
+            document.querySelector(`article:nth-of-type(${number})`).style.backgroundColor = "white"
+            // return number;
+            
+        }
+        setInterval(ran ,300);
+        setInterval(ran1, 200);
+
+    </script>
+</body>
+</html>
